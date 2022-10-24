@@ -1,5 +1,8 @@
+randomize();
+
 sprite_index = choose(
-	spr_asteroid_small, spr_asteroid_medium, 
+	spr_asteroid_medium, 
+	spr_asteroid_small, 
 	spr_asteroid_large
 );
 
