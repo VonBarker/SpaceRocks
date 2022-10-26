@@ -1,1 +1,1 @@
-speed = -speed
+direction = -direction
