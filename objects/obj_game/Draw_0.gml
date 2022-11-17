@@ -23,9 +23,9 @@ SPACE: shoot
 			break;
 			
 		case rm_win:
-			var c = c_lime;
+			var c = c_green;
 			draw_set_halign(fa_center);
-			draw_text_transformed_color(room_width/2, 200, "YOU WIN", 3, 3, 0, c, c, c, c, 1);
+			draw_text_transformed_color(room_width/2, 200, "YOU WON", 3, 3, 0, c, c, c, c, 1);
 			draw_text(room_width/2, 300, "PRESS ENTER TO RESTART");
 			draw_set_halign(fa_left);
 			break;
