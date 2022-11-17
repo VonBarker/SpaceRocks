@@ -1,5 +1,7 @@
 score = score + 10;
 
+audio_play_sound(snd_explosion, 1 ,false);
+
 instance_destroy()
 
 with(other)
